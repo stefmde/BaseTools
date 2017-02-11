@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BaseTools.Extensions.Collections
 {
-	class ListExtensions
+	public static class ListExtensions
 	{
+		public static T TakeFirst<T>(this List<T> input, int count)
+		{
+			return input.Sk
+		}
 	}
 }
